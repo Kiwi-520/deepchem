@@ -441,11 +441,12 @@ Attention Layers
 .. autoclass:: deepchem.models.torch_models.layers.SE3GraphNorm
   :members:
 
-  .. autoclass:: deepchem.models.torch_models.layers.SE3PartialEdgeConv
+.. autoclass:: deepchem.models.torch_models.layers.SE3PartialEdgeConv
   :members:
 
 .. autoclass:: deepchem.models.torch_models.layers.SE3ResidualAttention
   :members:
+
 
 Readout Layers
 ^^^^^^^^^^^^^^
@@ -505,4 +506,25 @@ MobileNetV2 Layers
 ------------------
 
 .. autoclass:: deepchem.models.torch_models.mobilenetv2.InvertedResidual
+   :members:
+
+ChemCeption Layers
+------------------
+
+.. autoclass:: deepchem.models.torch_models.chemnet_layers.Stem
+   :members:
+
+.. autoclass:: deepchem.models.torch_models.chemnet_layers.InceptionResnetA
+   :members:
+
+.. autoclass:: deepchem.models.torch_models.chemnet_layers.InceptionResnetB
+   :members:
+
+.. autoclass:: deepchem.models.torch_models.chemnet_layers.InceptionResnetB
+   :members:
+
+.. autoclass:: deepchem.models.torch_models.chemnet_layers.ReductionA
+   :members:
+
+.. autoclass:: deepchem.models.torch_models.chemnet_layers.ReductionB
    :members:

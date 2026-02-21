@@ -671,6 +671,26 @@ LNNModel
 .. autoclass:: deepchem.models.torch_models.LNNModel
   :members:
 
+SE3TransformerModel
+--------------------
+.. autoclass:: deepchem.models.torch_models.SE3TransformerModel
+  :members:
+  
+TFNModel
+--------------------
+.. autoclass:: deepchem.models.torch_models.TFNModel
+  :members:
+  
+ChemCeptionLayer
+----------------
+.. autoclass:: deepchem.models.torch_models.ChemCeptionLayer
+  :members:
+
+ChemCeption
+----------------
+.. autoclass:: deepchem.models.torch_models.ChemCeption
+  :members:
+
 PyTorch Lightning Models
 ========================
 
@@ -763,9 +783,4 @@ DistributedTrainer
 ------------------
 
 .. autoclass:: deepchem.trainer.DistributedTrainer
-  :members:
-
-ChemCeption
-----------------
-.. autoclass:: deepchem.models.torch_models.ChemCeption.ChemCeption
   :members:
